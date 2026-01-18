@@ -5,15 +5,15 @@ class Quickdiff < Formula
 
   on_macos do
     url "https://github.com/Yeshwanthyk/quickdiff/releases/download/v#{version}/quickdiff-aarch64-apple-darwin.tar.gz"
-    sha256 "PLACEHOLDER_ARM64_SHA256"
+    sha256 "7cb7179d232dce3a84ffd5669cd6fad1115cf9510a7a0c870852234c7c1e37fe"
   end
 
   on_linux do
     url "https://github.com/Yeshwanthyk/quickdiff/releases/download/v#{version}/quickdiff-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "PLACEHOLDER_LINUX_SHA256"
+    sha256 "03db3455c25bca3355c54cfe4da9284b7fc72d6dc5b2577fabb371710a492e3a"
   end
 
-  version "0.7.6"
+  version "0.7.7"
 
   def install
     bin.install "quickdiff"
