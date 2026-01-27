@@ -3,17 +3,17 @@ class Quickdiff < Formula
   homepage "https://github.com/Yeshwanthyk/quickdiff"
   license "MIT"
 
-  version "0.7.7"
-
   on_macos do
-    url "https://github.com/Yeshwanthyk/quickdiff/releases/download/v0.7.7/quickdiff-aarch64-apple-darwin.tar.gz"
-    sha256 "7cb7179d232dce3a84ffd5669cd6fad1115cf9510a7a0c870852234c7c1e37fe"
+    url "https://github.com/Yeshwanthyk/quickdiff/releases/download/v#{version}/quickdiff-aarch64-apple-darwin.tar.gz"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   on_linux do
-    url "https://github.com/Yeshwanthyk/quickdiff/releases/download/v0.7.7/quickdiff-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "03db3455c25bca3355c54cfe4da9284b7fc72d6dc5b2577fabb371710a492e3a"
+    url "https://github.com/Yeshwanthyk/quickdiff/releases/download/v#{version}/quickdiff-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
+
+  version "0.7.8"
 
   def install
     bin.install "quickdiff"
